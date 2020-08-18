@@ -1,0 +1,184 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-08-18T16:51:57.863Z",
+    "end": "2020-08-18T16:52:22.224Z",
+    "duration": 24361,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "36360cb2-ce47-479a-b449-fac5c23a3d8d",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0c51f7fd-2c73-4b37-ac16-fc1b4b5bf1d2",
+          "title": "Add to Cart",
+          "fullFile": "D:\\new\\codeceptjsExample\\tests\\addToCart_test.js",
+          "file": "\\tests\\addToCart_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite",
+              "fullTitle": "Add to Cart \"before all\" hook: codeceptjs.beforeSuite",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "66c8e8c9-3336-4e4d-ac3b-4c13ac44a8cf",
+              "parentUUID": "0c51f7fd-2c73-4b37-ac16-fc1b4b5bf1d2",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before",
+              "fullTitle": "Add to Cart \"before each\" hook: codeceptjs.before",
+              "timedOut": false,
+              "duration": 3488,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "4fa4f6ab-128d-48fb-a57e-dd26d025642b",
+              "parentUUID": "0c51f7fd-2c73-4b37-ac16-fc1b4b5bf1d2",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite",
+              "fullTitle": "Add to Cart \"after all\" hook: codeceptjs.afterSuite",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "c90bafb0-a242-4374-b6a6-917f2beeb28c",
+              "parentUUID": "0c51f7fd-2c73-4b37-ac16-fc1b4b5bf1d2",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs",
+              "fullTitle": "Add to Cart \"after each\" hook: finalize codeceptjs",
+              "timedOut": false,
+              "duration": 681,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "ba5b8c9d-02ad-4ca4-bfd4-bbea256bd4a6",
+              "parentUUID": "0c51f7fd-2c73-4b37-ac16-fc1b4b5bf1d2",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Select Dress and Add To Cart",
+              "fullTitle": "Add to Cart: Select Dress and Add To Cart",
+              "timedOut": false,
+              "duration": 20182,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "[\n  \"Choosing Category and Sub Category\",\n  \"choosing_categories.png\",\n  \"Adding item to Cart\",\n  \"add_to_cart.png\",\n  \"Verify item added to Cart\",\n  \"verifyProductInCart.png\"\n]",
+              "code": "",
+              "err": {},
+              "uuid": "41e84e59-d460-4ec9-b871-a68450020a95",
+              "parentUUID": "0c51f7fd-2c73-4b37-ac16-fc1b4b5bf1d2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "41e84e59-d460-4ec9-b871-a68450020a95"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 20182,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.3"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "Test_Execution_Report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "reportFilename": "Test_Execution_Report",
+        "reportDir": "./output",
+        "reportTitle": "Application > http://automationpractice.com",
+        "reportPageTitle": "Basic Tests",
+        "inlineAssets": true,
+        "charts": true,
+        "code": false,
+        "overwrite": true,
+        "timestamp": "isoDateTime"
+      },
+      "version": "5.1.0"
+    }
+  }
+}
