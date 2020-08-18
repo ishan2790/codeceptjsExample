@@ -1,0 +1,24 @@
+{
+  "name": "codeceptjs_proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "codecept.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npx codeceptjs run --reporter mocha-multi"
+  },
+  "keywords": [],
+  "author": "ishan",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "^2.6.8",
+    "puppeteer": "^5.2.1"
+  },
+  "dependencies": {
+    "@codeceptjs/configure": "^0.5.2",
+    "mocha-multi": "^1.1.3",
+    "mochawesome": "^6.1.1"
+  }
+}
